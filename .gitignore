@@ -1,0 +1,50 @@
+# Model artifacts and outputs
+gpt2-finetuned/
+logs/
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.pb
+*.onnx
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data and large files
+*.csv
+*.parquet
+*.feather
+data/
+datasets/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.log
